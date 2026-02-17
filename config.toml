@@ -1,0 +1,7 @@
+baseURL = 'https://localhost:1313/'
+languageCode = 'en-us'
+title = 'Chinestesia'
+theme = 'ananke'
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

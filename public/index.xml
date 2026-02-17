@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chinestesia</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Chinestesia</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Feb 2026 12:48:32 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chinestesia Pro</title>
+      <link>http://localhost:1313/posts/welcome-post/</link>
+      <pubDate>Tue, 17 Feb 2026 12:48:32 +0100</pubDate>
+      <guid>http://localhost:1313/posts/welcome-post/</guid>
+      <description>&lt;h2 id=&#34;en-chinestesia-te-damos-todo-lo-que-necesitas-para-llevar-tu-chino-de-zero-a-hero&#34;&gt;En Chinestesia, te damos todo lo que necesitas para llevar tu chino de zero a hero.&lt;/h2&gt;&#xA;&lt;p&gt;No te lo pienses más y explora nuestras nuevos &lt;strong&gt;episodios&lt;/strong&gt; para entender &lt;strong&gt;China&lt;/strong&gt; y su cultura.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
