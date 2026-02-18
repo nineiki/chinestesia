@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/flahscards/</link>
       <pubDate>Wed, 18 Feb 2026 17:19:17 +0100</pubDate>
       <guid>http://localhost:1313/posts/flahscards/</guid>
-      <description>&lt;p&gt;Hemos preparado una serie de tarjetas de memoria (flashcards) para nuestro &lt;em&gt;Curso de iniciación al chino mandarín&lt;/em&gt;. Estas se instalan en la aplicación de móvil de Pleco y se descargan aquí.&lt;/p&gt;&#xA;&lt;h3 id=&#34;descarga&#34;&gt;Descarga&lt;/h3&gt;</description>
+      <description>&lt;p&gt;Hemos preparado una serie de tarjetas de memoria (flashcards) para nuestro &lt;em&gt;Curso de iniciación al chino mandarín&lt;/em&gt;. Estas se instalan en la aplicación de móvil de Pleco y se descargan aquí.&lt;/p&gt;&#xA;&lt;a href=&#34;https://raw.githubusercontent.com/nineiki/chinestesia/main/data/chinestesia-iniciacion.xml&#34; class=&#34;download-btn&#34;&gt;&#xA;  Download XML&#xA;&lt;/a&gt;</description>
     </item>
     <item>
       <title>Chinestesia Pro</title>
