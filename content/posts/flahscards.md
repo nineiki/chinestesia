@@ -6,4 +6,4 @@ title = 'Tarjetas de memoria Chinestesia'
 
 Hemos preparado una serie de tarjetas de memoria (flashcards) para nuestro *Curso de iniciación al chino mandarín*. Estas se instalan en la aplicación de móvil de Pleco y se descargan aquí.
 
-### Descarga
+### [Descargar](https://www.sitio-externo.com)
