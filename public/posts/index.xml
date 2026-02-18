@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Chinestesia</title>
-    <link>http://localhost:38473/posts/</link>
+    <link>http://localhost:46273/posts/</link>
     <description>Recent content in Posts on Chinestesia</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 18 Feb 2026 17:19:17 +0100</lastBuildDate>
-    <atom:link href="http://localhost:38473/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:46273/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tarjetas de memoria Chinestesia</title>
-      <link>http://localhost:38473/posts/flahscards/</link>
+      <link>http://localhost:46273/posts/flahscards/</link>
       <pubDate>Wed, 18 Feb 2026 17:19:17 +0100</pubDate>
-      <guid>http://localhost:38473/posts/flahscards/</guid>
-      <description>&lt;p&gt;Hemos preparado una serie de tarjetas de memoria (flashcards) para nuestro &lt;em&gt;Curso de iniciación al chino mandarín&lt;/em&gt;. Estas se instalan en la aplicación de móvil de Pleco y se descargan aquí.&lt;/p&gt;&#xA;&lt;a href=&#34;https://raw.githubusercontent.com/nineiki/chinestesia/main/data/chinestesia-iniciacion.xml&#34; class=&#34;download-btn&#34; data-filename=&#34;chinestesia-iniciacion.xml&#34;&gt;&#xA;  Download XML&#xA;&lt;/a&gt;&#xA;&lt;script&gt;&#xA;if (!window.__downloadButtonHandlerInstalled) {&#xA;  window.__downloadButtonHandlerInstalled = true;&#xA;  document.addEventListener(&#39;click&#39;, function(e){&#xA;    var el = e.target.closest &amp;&amp; e.target.closest(&#39;.download-btn&#39;);&#xA;    if (!el) return;&#xA;    var url = el.getAttribute(&#39;href&#39;);&#xA;    var filename = el.dataset.filename || (url &amp;&amp; url.split(&#39;/&#39;).pop().split(&#39;?&#39;)[0]) || &#39;download&#39;;&#xA;    e.preventDefault();&#xA;    fetch(url).then(function(resp){&#xA;      if (!resp.ok) throw new Error(&#39;Network response was not ok&#39;);&#xA;      return resp.blob();&#xA;    }).then(function(blob){&#xA;      var blobUrl = URL.createObjectURL(blob);&#xA;      var a = document.createElement(&#39;a&#39;);&#xA;      a.style.display = &#39;none&#39;;&#xA;      a.href = blobUrl;&#xA;      a.download = filename;&#xA;      document.body.appendChild(a);&#xA;      a.click();&#xA;      URL.revokeObjectURL(blobUrl);&#xA;      a.remove();&#xA;    }).catch(function(err){&#xA;      window.location.href = url;&#xA;    });&#xA;  });&#xA;}&#xA;&lt;/script&gt;</description>
+      <guid>http://localhost:46273/posts/flahscards/</guid>
+      <description>&lt;p&gt;Hemos preparado una serie de tarjetas de memoria (flashcards) para nuestro &lt;em&gt;Curso de iniciación al chino mandarín&lt;/em&gt;. Estas se instalan en la aplicación de móvil de Pleco y se descargan aquí.&lt;/p&gt;&#xA;&lt;a href=&#34;https://raw.githubusercontent.com/nineiki/chinestesia/main/data/chinestesia-iniciacion.xml&#34; class=&#34;download-btn&#34; data-filename=&#34;chinestesia-iniciacion.xml&#34;&gt;&#xA;  Descargar&#xA;&lt;/a&gt;&#xA;&lt;script&gt;&#xA;if (!window.__downloadButtonHandlerInstalled) {&#xA;  window.__downloadButtonHandlerInstalled = true;&#xA;  document.addEventListener(&#39;click&#39;, function(e){&#xA;    var el = e.target.closest &amp;&amp; e.target.closest(&#39;.download-btn&#39;);&#xA;    if (!el) return;&#xA;    var url = el.getAttribute(&#39;href&#39;);&#xA;    var filename = el.dataset.filename || (url &amp;&amp; url.split(&#39;/&#39;).pop().split(&#39;?&#39;)[0]) || &#39;download&#39;;&#xA;    e.preventDefault();&#xA;    fetch(url).then(function(resp){&#xA;      if (!resp.ok) throw new Error(&#39;Network response was not ok&#39;);&#xA;      return resp.blob();&#xA;    }).then(function(blob){&#xA;      var blobUrl = URL.createObjectURL(blob);&#xA;      var a = document.createElement(&#39;a&#39;);&#xA;      a.style.display = &#39;none&#39;;&#xA;      a.href = blobUrl;&#xA;      a.download = filename;&#xA;      document.body.appendChild(a);&#xA;      a.click();&#xA;      URL.revokeObjectURL(blobUrl);&#xA;      a.remove();&#xA;    }).catch(function(err){&#xA;      window.location.href = url;&#xA;    });&#xA;  });&#xA;}&#xA;&lt;/script&gt;&#xA;&lt;h3 id=&#34;cómo-instalarlo-en-pleco&#34;&gt;Cómo instalarlo en Pleco&lt;/h3&gt;&#xA;&lt;p&gt;Una vez descargado el archivo, abre la aplicación de Pleco. Desplegando el cajón de opciones de la izquierda, haz click en &lt;em&gt;Import/Export&lt;/em&gt; y de las opciones que se desplegarán elige &lt;em&gt;Import Cards&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Chinestesia Pro</title>
-      <link>http://localhost:38473/posts/welcome-post/</link>
+      <link>http://localhost:46273/posts/welcome-post/</link>
       <pubDate>Tue, 17 Feb 2026 12:48:32 +0100</pubDate>
-      <guid>http://localhost:38473/posts/welcome-post/</guid>
+      <guid>http://localhost:46273/posts/welcome-post/</guid>
       <description>&lt;h2 id=&#34;en-chinestesia-te-damos-todo-lo-que-necesitas-para-llevar-tu-chino-de-zero-a-hero&#34;&gt;En Chinestesia, te damos todo lo que necesitas para llevar tu chino de zero a hero.&lt;/h2&gt;&#xA;&lt;p&gt;No te lo pienses más y explora nuestras nuevos &lt;strong&gt;episodios&lt;/strong&gt; para entender &lt;strong&gt;China&lt;/strong&gt; y su cultura.&lt;/p&gt;</description>
     </item>
   </channel>
