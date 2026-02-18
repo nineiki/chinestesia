@@ -12,10 +12,12 @@ Hemos preparado una serie de tarjetas de memoria (flashcards) para nuestro *Curs
 
 ## ¿Cómo instalarlo en Pleco?
 
+
 Una vez descargado el archivo, abre la aplicación de Pleco. 
 
 Desplegando el cajón de opciones de la izquierda, haz click en ***Import/Export*** y de las opciones que se desplegarán elige ***Import Cards***.
 
+{{< figure src="/images/turorial_instalar_flashcards_pleco_1.png" alt="Texto alternativo" >}}
 
 Una vez accedas al menú de importación, asegúrate de seleccionar el archivo descargado y de dejar las opciones justo como se indica:
 
@@ -23,5 +25,7 @@ Una vez accedas al menú de importación, asegúrate de seleccionar el archivo d
 - *Definition Source* &rarr; File Only
 - *Missing Entries* &rarr; Skip
 - *Duplicate Entries* &rarr; Allow
+
+{{< figure src="/images/turorial_instalar_flashcards_pleco_2.png" alt="Texto alternativo" >}}
 
 Si no encuentras estas opciones fíjate en los apartados de **File**, **Definitions** y **Problem Handling**.
