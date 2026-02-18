@@ -1,5 +1,6 @@
 baseURL = 'https://localhost:1313/'
-languageCode = 'es-ES'
+defaultContentLanguage = "es"
+languageCode = "es-ES"
 title = 'Chinestesia'
 theme = 'ananke'
 [caches]
