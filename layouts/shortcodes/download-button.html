@@ -1,3 +1,31 @@
-<a href="{{ .Get "url" }}" class="download-btn">
+<a href="{{ .Get "url" }}" class="download-btn" data-filename="{{ .Get "filename" | default "" }}">
   {{ .Get "label" | default "Download" }}
 </a>
+<script>
+if (!window.__downloadButtonHandlerInstalled) {
+  window.__downloadButtonHandlerInstalled = true;
+  document.addEventListener('click', function(e){
+    var el = e.target.closest && e.target.closest('.download-btn');
+    if (!el) return;
+    var url = el.getAttribute('href');
+    var filename = el.dataset.filename || (url && url.split('/').pop().split('?')[0]) || 'download';
+    e.preventDefault();
+    fetch(url).then(function(resp){
+      if (!resp.ok) throw new Error('Network response was not ok');
+      return resp.blob();
+    }).then(function(blob){
+      var blobUrl = URL.createObjectURL(blob);
+      var a = document.createElement('a');
+      a.style.display = 'none';
+      a.href = blobUrl;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      URL.revokeObjectURL(blobUrl);
+      a.remove();
+    }).catch(function(err){
+      window.location.href = url;
+    });
+  });
+}
+</script>

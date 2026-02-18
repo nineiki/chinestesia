@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=38473&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
@@ -41,12 +41,12 @@
     
 
     
-      <link rel="canonical" href="http://localhost:1313/posts/">
+      <link rel="canonical" href="http://localhost:38473/posts/">
     
 
     
     
-    <meta property="og:url" content="http://localhost:1313/posts/">
+    <meta property="og:url" content="http://localhost:38473/posts/">
   <meta property="og:site_name" content="Chinestesia">
   <meta property="og:title" content="Posts">
   <meta property="og:locale" content="en_us">
@@ -108,9 +108,37 @@
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       <p>Hemos preparado una serie de tarjetas de memoria (flashcards) para nuestro <em>Curso de iniciación al chino mandarín</em>. Estas se instalan en la aplicación de móvil de Pleco y se descargan aquí.</p>
-<a href="https://raw.githubusercontent.com/nineiki/chinestesia/main/data/chinestesia-iniciacion.xml" class="download-btn">
+<a href="https://raw.githubusercontent.com/nineiki/chinestesia/main/data/chinestesia-iniciacion.xml" class="download-btn" data-filename="chinestesia-iniciacion.xml">
   Download XML
 </a>
+<script>
+if (!window.__downloadButtonHandlerInstalled) {
+  window.__downloadButtonHandlerInstalled = true;
+  document.addEventListener('click', function(e){
+    var el = e.target.closest && e.target.closest('.download-btn');
+    if (!el) return;
+    var url = el.getAttribute('href');
+    var filename = el.dataset.filename || (url && url.split('/').pop().split('?')[0]) || 'download';
+    e.preventDefault();
+    fetch(url).then(function(resp){
+      if (!resp.ok) throw new Error('Network response was not ok');
+      return resp.blob();
+    }).then(function(blob){
+      var blobUrl = URL.createObjectURL(blob);
+      var a = document.createElement('a');
+      a.style.display = 'none';
+      a.href = blobUrl;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      URL.revokeObjectURL(blobUrl);
+      a.remove();
+    }).catch(function(err){
+      window.location.href = url;
+    });
+  });
+}
+</script>
     </div>
     <a href="/posts/flahscards/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
@@ -143,7 +171,7 @@
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:38473/" >
     &copy;  Chinestesia 2026 
   </a>
     <div><div class="ananke-socials"></div>
