@@ -10,7 +10,7 @@ Una pequeña colección de canciones en chino que me parecen especialmente bonit
 
 <div class="song-card">
   <div class="song-cover">
-    <img src="/images/zhiyao_pingfan.jpeg" alt="Portada de 只要平凡">
+    <img src="images/zhiyao_pingfan.jpeg" alt="Portada de 只要平凡">
   </div>
   <div class="song-content">
     <div class="song-header">
@@ -58,7 +58,7 @@ Una pequeña colección de canciones en chino que me parecen especialmente bonit
 
 <div class="song-card">
   <div class="song-cover">
-    <img src="/images/jingzhong_deni.jpeg" alt="Portada de 鏡中的你">
+    <img src="images/jingzhong_deni.jpeg" alt="Portada de 鏡中的你">
   </div>
   <div class="song-content">
     <div class="song-header">
@@ -82,7 +82,7 @@ Una pequeña colección de canciones en chino que me parecen especialmente bonit
 
 <div class="song-card">
   <div class="song-cover">
-    <img src="/images/yuanzuo_pusa_naduolian.jpeg" alt="Portada de 願做菩薩那朵蓮">
+    <img src="images/yuanzuo_pusa_naduolian.jpeg" alt="Portada de 願做菩薩那朵蓮">
   </div>
   <div class="song-content">
     <div class="song-header">
@@ -106,7 +106,7 @@ Una pequeña colección de canciones en chino que me parecen especialmente bonit
 
 <div class="song-card">
   <div class="song-cover">
-    <img src="/images/jiarenqu.jpeg" alt="Portada de 佳人曲">
+    <img src="images/jiarenqu.jpeg" alt="Portada de 佳人曲">
   </div>
   <div class="song-content">
     <div class="song-header">
@@ -130,7 +130,7 @@ Una pequeña colección de canciones en chino que me parecen especialmente bonit
 
 <div class="song-card">
   <div class="song-cover">
-    <img src="/images/chongdong_de_chengfa.jpeg" alt="Portada de 冲动的惩罚">
+    <img src="images/chongdong_de_chengfa.jpeg" alt="Portada de 冲动的惩罚">
   </div>
   <div class="song-content">
     <div class="song-header">
@@ -154,7 +154,7 @@ Una pequeña colección de canciones en chino que me parecen especialmente bonit
 
 <div class="song-card">
   <div class="song-cover">
-    <img src="/images/xiaopingguo.jpeg" alt="Portada de 小苹果">
+    <img src="images/xiaopingguo.jpeg" alt="Portada de 小苹果">
   </div>
   <div class="song-content">
     <div class="song-header">
