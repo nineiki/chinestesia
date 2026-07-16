@@ -8,4 +8,10 @@ theme = 'ananke'
     dir = ':cacheDir/images'
 
 [params]
-  custom_css = ["css/custom.css"]
+  custom_css = ["custom.css"]
+  mainSections = ["posts", "lists"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
