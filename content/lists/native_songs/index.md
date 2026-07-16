@@ -34,7 +34,7 @@ Una pequeña colección de canciones en chino que me parecen especialmente bonit
 
 <div class="song-card">
   <div class="song-cover">
-    <img src="{{ '/images/ganlanshu.jpeg' | relURL }}"  alt="Portada de 橄榄树">
+  <img src="{{ "images/logo.png" | relURL }}" alt="Portada de 橄榄树"> 
   </div>
   <div class="song-content">
     <div class="song-header">
