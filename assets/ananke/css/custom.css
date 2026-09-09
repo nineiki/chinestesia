@@ -10,6 +10,7 @@
 /* Simple size tweak: change only this one value */
 :root {
   --song-cover-size: 160px;
+  --film-cover-height: 225px;
 }
 
 /* Override theme link styles */
@@ -52,6 +53,17 @@
 .song-cover img {
   width: var(--song-cover-size);
   height: var(--song-cover-size);
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  border-radius: 0.8rem;
+  background: #eef4f9;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+}
+
+.film-cover img {
+  width: var(--song-cover-size);
+  height: var(--film-cover-height);
   aspect-ratio: 1 / 1;
   object-fit: cover;
   display: block;
@@ -118,8 +130,14 @@
 }
 
 .tag-language {
-  background: #f4f6f8;
-  color: #4b5563;
+  background: #e8fcea;
+  color: #1d863c;
+  border: 1px solid #dce3ea;
+}
+
+.tag-vibe {
+  background: #fce8fa;
+  color: #7e166b;
   border: 1px solid #dce3ea;
 }
 
