@@ -1,5 +1,5 @@
 +++
-date = '2026-07-15T10:00:00+01:00'
+date = '2026-09-09T10:00:00+01:00'
 draft = false
 title = 'Recomendaciones de Películas Nativas'
 +++
