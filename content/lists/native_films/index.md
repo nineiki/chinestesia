@@ -57,7 +57,7 @@ Una pequeña colección de películas chinas formidables con las que estudiar el
   <div class="song-content">
     <div class="song-header">
       <div class="song-title-block">
-        <h3 class="song-title">阳照常升起</h3>
+        <h3 class="song-title">太阳照常升起</h3>
         <p class="song-translation"><em>También sale el sol</em></p>
       </div>
       <p class="song-credits"><strong>2007 - Jiangwen (姜文)</strong></p>
